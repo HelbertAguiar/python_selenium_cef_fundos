@@ -1,5 +1,0 @@
-https://www.selenium.dev/selenium/docs/api/py/
-
-https://selenium-python.readthedocs.io/
-
-python -m pip install polling2

@@ -1,0 +1,15 @@
+1620704516598	geckodriver	INFO	Listening on 127.0.0.1:59432
+1620704519595	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\helbe\\AppData\\Local\\Temp\\rust_mozprofileHbGOIc"
+1620704520489	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620704523647	Marionette	INFO	Listening on port 59440
+1620704523809	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.fundos.caixa.gov.br/sipii/javax.faces.resource/jquery.min.1.9.0.js.jsf;jsessionid=YUfh6+auK3GQqvSrEkb-LbzV?ln=design/js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.fundos.caixa.gov.br/sipii/javax.faces.resource/jquery.min.1.9.0.js.jsf?ln=design/js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.fundos.caixa.gov.br/sipii/javax.faces.resource/jquery.min.1.9.0.js.jsf?ln=design/js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.fundos.caixa.gov.br/sipii/javax.faces.resource/jquery.min.1.9.0.js.jsf?ln=design/js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.fundos.caixa.gov.br/sipii/javax.faces.resource/jquery.min.1.9.0.js.jsf?ln=design/js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1620705790587	Marionette	INFO	Stopped listening on port 59440
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
