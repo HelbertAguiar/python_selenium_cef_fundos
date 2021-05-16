@@ -84,9 +84,9 @@ def captura_classe_fundos( browser , temp , id_classe , dataInserir):
 def insere_data( browser , temp , dataInserir ):
     inputElement = browser.find_element_by_id("dtBusca")
     inputElement.click()
-    time.sleep((1/5)*temp)
+    time.sleep(1)
     inputElement.send_keys(dataInserir.replace('/',''))
-    btn = WebDriverWait(browser, temp).until( EC.element_to_be_clickable((By.ID, "btn-consultar")) )
+    btn = WebDriverWait(browser, 2).until( EC.element_to_be_clickable((By.ID, "btn-consultar")) )
     btn.click()
     time.sleep((2/3)*temp)
 
@@ -104,7 +104,7 @@ def leitura_arquivo_data():
 
     return lista_datas
 
-temp = 12 # segundos
+temp = 11 # segundos
 lista_datas = leitura_arquivo_data() # dataInserir = '05/05/2021'
 
 # instancia navegador
